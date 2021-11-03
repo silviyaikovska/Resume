@@ -1,0 +1,556 @@
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+
+
+
+
+
+
+*body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+
+  * {box-sizing: border-box}
+
+
+
+
+
+
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 20%; /* IE10 */
+    flex: 10%;
+    background-color: rgb(228, 220, 221);
+    padding: -2px;
+    border: solid 150px;
+    border-left-color: rgb(106, 230, 158);
+    border-bottom-color:  rgb(106, 230, 158);
+    border-bottom: 0px;
+    border-top: 10px;   
+    border-right:0px;
+    margin-bottom: -380px; 
+    padding-bottom: -500px;  
+    
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 50%; /* IE10 */
+    flex: 70%;
+    background-color: rgb(243, 241, 241);
+    padding: 1px;
+    border: solid 90px;
+    border-right-color:  rgb(106, 230, 158);
+    border-top-color:  rgb(106, 230, 158);
+    border-bottom: 0px;
+    border-left:0px;  
+    border- right -60px;
+    margin-bottom: -380px;
+    padding-bottom: -400px;
+    min-height: 1700px;
+
+  }
+  
+  /*my img */
+  .myimgg {
+    text-align-last: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  }
+
+  .name{
+    font-family: 'Dancing Script', cursive;
+    text-align-last: center;
+    padding-top: 3%;
+    margin: none;
+   
+   
+  }
+.student{
+  text-align-last: center;
+   
+    font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: -10%;
+  padding-top: -10%;
+  margin-bottom: -10%;
+}
+
+
+.img1 , .img2, .img3, .img4 {
+    display: inline-block;
+    width: 32px;
+    height: 28px;
+     }
+
+  .img5{
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      
+     }
+     .img6{
+      display: inline-block;
+      width: 35px;
+      height: 30px;
+       
+
+
+     }
+
+
+     .god{
+       color:   rgb(106, 230, 158);
+       font-weight: bold;
+       margin-top: -20px;
+       text-align-last: center;
+
+     }
+
+.un1 , .un2, .un3{
+  color: rgb(68, 73, 73);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.socialinfo{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: 0%;
+  padding-top: -10%;
+  margin-bottom: -10%;
+  padding-bottom: -20%;
+  margin-bottom: -10%;
+  
+}
+
+.contacts{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: -7%;
+  padding-top: -10%;
+  margin-bottom: -15%;
+  padding-top: -10%;
+  
+}
+
+.skills{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: 1%;
+  padding-top: -10%;
+  margin-bottom: -25%;
+  padding-bottom:  -20%;
+  
+}
+
+.languages
+{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: 20%;
+  padding-top: 5%;
+  margin-bottom: -10%;  
+}
+ 
+.language1{
+  margin-top: -33px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    margin-left: -75px;
+    margin-right: 75px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.language2{
+  margin-top: 45px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    margin-left: -70px;
+    margin-right: 70px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.hr2{
+  border-top: 3px dashed rgb(106, 230, 158);
+  width:30%;
+  text-align-last: center;
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top: 33%;
+  margin-bottom: -20%;
+  padding-bottom: -20%;
+
+}
+
+.me{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: large;
+  margin-top: 3%;
+  padding-top: -10%;
+  margin-bottom: -10%;   
+}
+
+    .education{
+    text-align-last: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: large;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: -10%;   
+  }
+
+  .favicon1 {
+    margin-top: -10;
+    padding-top: -20%;
+    border-top: none;
+    margin-bottom: -10;
+    margin-left: 35%;
+    cursor: -webkit-grab; cursor: grab;
+  }
+
+  .favicon2{
+    text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+    margin-top: -20;
+    padding-top: -20%;
+    border-top: none;
+    margin-bottom: -10; 
+  }
+
+
+  * {box-sizing: border-box}
+
+  .container {
+    width: 100%;
+  
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: rgb(8, 8, 8);
+  }
+
+  .skill1 {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .skill2 {
+    margin-top: 42px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .skill3 {
+    margin-top: 42px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .skill4 {
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .skill5, .skill6, .skill7, .skill8, .skill9 {
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+
+  .skill10, .skill11 {
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    font-family: 'Architects Daughter', cursive;
+  }
+.softskills{
+  margin-top: -40px;
+  padding-top: -20px;
+}
+  
+  .html {width: 80%;  background-color:rgb(106, 230, 158);}
+  .css {width: 75%; background-color:rgb(106, 230, 158);}
+  .js {width: 75%; background-color: rgb(106, 230, 158);}
+  .ph {width: 60%; background-color: rgb(106, 230, 158);}
+  .c {width: 50%; background-color: rgb(106, 230, 158);}
+  .maya {width: 50%; background-color: rgb(106, 230, 158);}
+
+  .favicon4{
+    text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+    margin-top: 5%;
+    padding-top: 3%;
+    border-top: none;
+    margin-bottom: -10; 
+    margin-left: -10%;
+    margin-right: -7%;
+  }
+.favicon5{
+  text-align-last: center;
+  font-family: 'Architects Daughter', cursive;
+    margin-top: 5%;
+    padding-top: 3%;
+    border-top: none;
+    margin-bottom: -10; 
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.hr1{
+  
+  border-top: 3px dashed rgb(106, 230, 158);
+  width:30%;
+  text-align-last: center;
+  margin-left: 35%;
+  margin-right: 40%;
+  margin-top: 15px;
+  
+}
+  
+
+  .table{
+    text-align-last: center;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .seemore21 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(106, 230, 158);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 1px;
+    width: 111px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -20px;
+    padding-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .seemore21 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .seemore21 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .seemore21:hover span {
+    padding-right: 25px;
+  }
+  
+  .seemore21:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .seemore11 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(106, 230, 158);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 1px;
+    width: 111px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -20px;
+    padding-top: -10px;
+  }
+  
+  .seemore11 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .seemore11 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .seemore11:hover span {
+    padding-right: 25px;
+  }
+  
+  .seemore11:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .seemore22 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(106, 230, 158);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 1px;
+    width: 111px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -20px;
+    padding-top: -10px;
+  }
+  
+  .seemore22 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .seemore22 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .seemore22:hover span {
+    padding-right: 25px;
+  }
+  
+  .seemore22:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+ 
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+     
+    }
+
+    .myDIV {
+      width: 30%;
+      padding: 50px 0;
+      text-align: center;
+      background-color: rgb(66, 187, 228);
+      margin-top: 20px;
+      font-family: 'Architects Daughter', cursive;
+
+      
+    }
+
+    .myDIV11 {
+      width: 100%;
+      padding: 50px 0;
+      text-align: center;
+      background-color: rgb(66, 187, 228);
+      margin-top: 20px;
+      
+    }
+
+
+.slideshow{
+  font-family: 'Architects Daughter', cursive;
+  margin-top: -100px;
+  padding-top: -20px;
+}
+
+
+.mySlides {
+  display:none;
+ 
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+ 
+  }
